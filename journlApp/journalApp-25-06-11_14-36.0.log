@@ -1,0 +1,4 @@
+25-06-11 14:36:58.174 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [net.engineeringdigest.journlApp.service.RedisTest]: RedisTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+25-06-11 14:36:58.465 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration net.engineeringdigest.journlApp.JournalApplication for test class net.engineeringdigest.journlApp.service.RedisTest 
+25-06-11 14:36:59.310 [main] INFO  n.e.journlApp.service.RedisTest - Starting RedisTest using Java 21.0.2 with PID 20224 (started by ngkv2 in C:\Users\ngkv2\Downloads\journlApp\journlApp) 
+25-06-11 14:36:59.316 [main] INFO  n.e.journlApp.service.RedisTest - No active profile set, falling back to 1 default profile: "default" 

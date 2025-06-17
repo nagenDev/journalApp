@@ -1,0 +1,16 @@
+#like there should be two profiles for accesing the data like read and write rights  and some has
+#only read rights so
+#if you have more than 1 yml files you have to make 1 extea yml to make sure which one is active profiles
+#using spring.profiles.active=dev or prod and u can add some common things in this file (means making one file as defoult)
+# u can also make default using edit configuration template externally by writing this spring.profiles.active=dev
+#u can also do the same thing using terminal by running the zar (to make this a zar and run with help of terminal )
+#use .\mvn clean package -D sping.profiles.acitve=dev
+#things are same whether u use .properties or yml all you should  have to do is to change the
+# server and database link
+#u can use @profile bin to say which one should be work for specific profile
+
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#

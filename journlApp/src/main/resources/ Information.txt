@@ -1,0 +1,2 @@
+Spring boot supports various logging frameworks, such as logback, log4j2, and java util logging (jul)
+logback: a popular
