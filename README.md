@@ -144,4 +144,3 @@ Java Developer | Spring Boot | REST APIs
 ✅ This is **ready to copy-paste into your GitHub repo as `README.md`**.  
 
 Do you want me to also **add a diagram (JWT Auth flow + Redis caching architecture)** inside the README so it looks like a professional GitHub project?
-```
