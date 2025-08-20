@@ -93,18 +93,20 @@ mvn spring-boot:run
 ---
 
 ## 📖 API Endpoints
+## 📖 API Endpoints
 
-| Endpoint         | Method | Description            |
-| ---------------- | ------ | ---------------------- |
-| `/auth/register` | POST   | Register new user      |
-| `/auth/login`    | POST   | Login & get JWT token  |
-| `/articles`      | GET    | Get all articles       |
-| `/articles/{id}` | GET    | Get article by ID      |
-| `/articles`      | POST   | Create new article     |
-| `/articles/{id}` | PUT    | Update article         |
-| `/articles/{id}` | DELETE | Delete article         |
-| `/categories`    | GET    | Get all categories     |
-| `/comments`      | POST   | Add comment to article |
+| Endpoint                        | Method | Description                          |
+|---------------------------------|--------|--------------------------------------|
+| `/health-check`                 | GET    | Simple health probe                  |
+| `/journal/{userName}`           | GET    | Get all journal entries for a user   |
+| `/journal/{userName}`           | POST   | Create a journal entry for a user    |
+| `/journal/id/{myId}`            | GET    | Get a journal entry by ID            |
+| `/journal/id/{userName}/{myId}` | DELETE | Delete a user’s journal entry by ID  |
+| `/journal/id/{userName}/{myId}` | PUT    | Update a user’s journal entry by ID  |
+| `/user`                         | GET    | Get all users                        |
+| `/user`                         | POST   | Create (register) a new user         |
+| `/user/{userName}`              | PUT    | Update a user by username            |
+| `/admin/all-users`              | GET    | Get all users (admin only)           |
 
 ---
 
